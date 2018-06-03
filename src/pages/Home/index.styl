@@ -1,0 +1,78 @@
+@import "../../variables.styl"
+
+.p-home
+    background-color color-tertiary
+    color color-primary
+    position relative
+    max-width 620px
+    margin 50 auto
+    padding 5px 20px
+    box-shadow 5px 5px 10px 0 #EBECF0
+    border 1px solid #EBECF0
+
+.button-next
+    position absolute
+    top 45px
+    right -25px
+    border: none
+    background-color transparent
+    &:focus
+        outline none
+
+.button-inside-next
+    position absolute
+    width 0
+    height 0
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 40px solid color-secondary;
+
+.button-prev
+    position absolute
+    top 45px
+    left -65px
+    border: none
+    background-color transparent
+    &:focus
+        outline none
+
+
+.button-inside-prev
+    position absolute
+    width 0
+    height 0
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 40px solid color-secondary;
+
+.visuallyhidden
+    border 0
+    clip rect(0 0 0 0)
+    height 1px
+    margin -1px
+    overflow hidden
+    padding 0
+    position absolute
+    width 1px
+
+.list-tabs
+    list-style-type none
+    display flex
+    align-items flex-end
+    height 40px
+    padding 0
+
+.tab-link
+    font-family: Josefin;
+    transition all 0.3s
+    text-decoration none
+    color color-primary
+    font-size 20px
+    margin-right 30px
+
+#enlarge
+    line-height 22px
+    vertical-align end
+    font-size 26px
+    font-weight 600
+    color color-secondary

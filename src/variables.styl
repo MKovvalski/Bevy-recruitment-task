@@ -1,0 +1,47 @@
+//Variables
+
+//colors
+color-primary = #42526E
+color-secondary = #172b4d
+color-tertiary = white
+
+//fonts
+Lato = "Lato", Helvetica, sans-serif
+Josefin = "Josefin Sans", Helvetica, sans-serif
+
+//borders
+border-primary = 1px solid color-secondary
+
+//Mixins
+
+//flex-box
+flex-box(direction, justify, align)
+  display flex
+  flex-direction direction
+  justify-content justify-content
+  align-items align
+
+
+//animations
+#expand
+  animation expand 0.2s linear 1 forwards
+
+#shrink
+  animation shrink 0.2s linear 1 forwards
+
+@keyframes expand {
+  100% {
+    height 180px
+  }
+}
+
+@keyframes shrink {
+  0% {
+    height 180px
+  }
+  100% {
+    height 25px
+  }
+}
+
+

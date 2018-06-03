@@ -1,0 +1,43 @@
+@import "../../variables.styl"
+
+.c-overview
+    .header
+        font-family Josefin
+        color color-secondary
+        position relative
+    .label
+        padding-right 5px
+        font-weight bold
+        font-family Josefin
+    .bio
+        line-height 1.4
+    .bio, .skillset
+        padding 0
+        display flex
+        justify-content space-around
+        width 100%
+        margin-top 5px
+        list-style-type none
+    .skill
+        width 70px
+        height 90px
+        display flex
+        flex-direction column
+        justify-content center
+        align-items center
+        border-radius 3px
+        border 2px solid color-secondary
+        .skill-level
+            font-size 19px
+            font-weight 600
+
+    #border-green
+        border 2px solid #00cc66
+    #border-red
+        border 2px solid #ff3333
+    .list-img
+        width 60px
+        height 60px
+        object-fit cover
+        border-radius 2px
+        border border-primary
